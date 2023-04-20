@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightblue;
+}
+
+header {
+  font-family: 'Gill Sans';
+}
+
+
+main {
+  font-family: cursive;
+  font-size: x-large;
+  width: 75%; 
+  margin: auto;
+  padding: 5px;
+  text-align: justify;
+  border: dotted;
+  background-color: lightcoral;
+}
+
+p {
+  width: 50%;
+
+  margin:  auto;
+}
+
+#my-name {
+  color: red;
+  background-color: lightgray;
+}
+
+#my-name:after{
+  content: "😁";
+}
